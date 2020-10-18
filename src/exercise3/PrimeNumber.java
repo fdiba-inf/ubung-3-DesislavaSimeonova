@@ -6,7 +6,7 @@ public class PrimeNumber {
     int n = input.nextInt;
     boolean isPrime = true;
 
-    for ( int i = 2; i <= Math.sqrt(n); i++) {
+    for (int i = 2; i <= Math.sqrt(n); i++) {
       if (n%i == 0){
         isPrime = false;
       }
@@ -15,6 +15,7 @@ public class PrimeNumber {
       if else (n%i != 0) {
         isPrime = true;
       }
-  }
-  
+      System.out.println("Prime number: "+ isPrime) 
+     }
+    
 }
